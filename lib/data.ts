@@ -69,8 +69,8 @@ export const projectsData = [
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
-    codeUrl: "https://drive.google.com/file/d/1qrMmL_iBxFMgdfpOXRg01prdIi8woIXu/view?usp=sharing",
-    demoLiveUrl: "https://drive.google.com/file/d/1qrMmL_iBxFMgdfpOXRg01prdIi8woIXu/view?usp=sharing"
+    codeUrl: "https://github.com/Abdullah628/",
+    demoLiveUrl: "https://github.com/Abdullah628/"
   },
   {
     title: "Word Analytics",
@@ -78,8 +78,8 @@ export const projectsData = [
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
-    codeUrl: "https://drive.google.com/file/d/1qrMmL_iBxFMgdfpOXRg01prdIi8woIXu/view?usp=sharing",
-    demoLiveUrl: "https://drive.google.com/file/d/1qrMmL_iBxFMgdfpOXRg01prdIi8woIXu/view?usp=sharing"
+    codeUrl: "https://github.com/Abdullah628/",
+    demoLiveUrl: "https://github.com/Abdullah628/"
   },
 ] as const;
 
@@ -96,8 +96,6 @@ export const skillsData = [
   "MongoDB",
   "Redux",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Python"
+  
 ] as const;
