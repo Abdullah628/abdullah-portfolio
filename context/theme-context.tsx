@@ -28,7 +28,7 @@ export default function ThemeContextProvider({
     } else {
       setTheme("light");
       window.localStorage.setItem("theme", "light");
-      document.documentElement.classList.remove("dark");
+      document.documentElement.classList.add("light");
     }
   };
 
