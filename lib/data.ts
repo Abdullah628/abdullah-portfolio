@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import carHubImg from "@/public/carHub.png";
 import shoply from "@/public/shoply.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import chatAppPic from "@/public/chatAppPic.png";
 
 export const links = [
   {
@@ -55,6 +55,15 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "MERN Chat App",
+    description:
+      "Create real-time chat applications with MERN stack, leveraging MongoDB, Express.js, React, and Node.js for seamless communication.",
+    tags: ["React", "MongoDB", "Daisy UI", "Tailwind"],
+    imageUrl: chatAppPic,
+    codeUrl: "https://github.com/Abdullah628/MERN-chat-app",
+    demoLiveUrl: "https://chat-app-dep-ak1z.onrender.com"
+  },
+  {
     title: "Car Hub",
     description:
       "I completed this simple project which is provide different type of car service such as rent, book, car details, search car.",
@@ -72,15 +81,7 @@ export const projectsData = [
     codeUrl: "https://github.com/Abdullah628/shoply",
     demoLiveUrl: "https://shoply-six.vercel.app/"
   },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-    codeUrl: "https://github.com/Abdullah628/",
-    demoLiveUrl: "https://github.com/Abdullah628/"
-  },
+  
 ] as const;
 
 export const skillsData = [
